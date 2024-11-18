@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { radjhani } from "./fonts/fonts.js";
 import type { Metadata } from "next";
 import Image from "next/image.js";
