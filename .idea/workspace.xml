@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766d1155-2272-42ec-a2d9-58a1fe5800b7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/Footer/Page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/Footer/Page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +29,13 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.tailwindcss",
     "ts.external.directory.path": "/media/kyoshiro/Developpement/Projets-Web/Full-Stack/NextJs/garage-vparrot/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   },
@@ -60,7 +62,7 @@
       <updated>1731320739232</updated>
       <workItem from="1731320741121" duration="893000" />
       <workItem from="1731321656618" duration="716000" />
-      <workItem from="1731942041621" duration="522000" />
+      <workItem from="1731942041621" duration="5335000" />
     </task>
     <servers />
   </component>
