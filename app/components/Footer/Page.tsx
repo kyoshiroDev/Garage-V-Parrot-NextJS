@@ -2,7 +2,7 @@ import Image from "next/image.js";
 
 export default function Footer() {
   return (
-    <footer className={'flex flex-wrap items-start justify-around p-10 mt-10 w-full bg-gray-200'}>
+    <footer className={'flex flex-wrap items-start justify-around px-10 py-5 mt-10 w-full bg-gray-200'}>
       {/* Horaires */}
       <div className={'flex-col items-start justify-center mt-5'}>
         <h3 className={'text-center text-2xl font-semibold'}>Horaires d'ouverture</h3>
@@ -55,6 +55,7 @@ export default function Footer() {
         <p className={'pt-5'}>Mentions légales et politiques de confidentialités</p>
         <p>Cookies</p>
       </div>
+      <div className={'w-full text-center mt-5'}><p className={'text-xs'}>©Forge Digital Web</p></div>
     </footer>
   )
 }

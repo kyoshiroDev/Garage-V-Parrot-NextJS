@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 h2 {
-	@apply text-garage-red text-xl font-semibold text-center mt-40 border-2 border-garage-red max-w-fit py-5 px-10 m-auto rounded-3xl;
+    @apply text-garage-red text-xl font-semibold text-center mt-40 border-2 border-garage-red max-w-fit py-5 px-20 lg:px-[300px] m-auto rounded-2xl;
 }
 
 button {
-	@apply bg-garage-red text-white min-w-[150px] min-h-[50px] rounded-xl font-semibold hover:bg-garage-red-hover;
+    @apply bg-garage-red text-white min-w-[150px] min-h-[50px] rounded-xl font-semibold hover:bg-garage-red-hover;
 }
 
 .nav-bar-mobile {
-	@apply flex-col justify-center items-center gap-10 bg-white fixed top-0 left-0 w-full z-[1] lg:h-[100px] lg:mt-0 flex lg:flex-row lg:gap-20 lg:z-0 lg:bg-inherit lg:relative transition-all ease-in-out duration-700;
+    @apply flex-col justify-center items-center gap-10 bg-white fixed top-0 left-0 w-full z-[1] lg:h-[100px] lg:mt-0 flex lg:flex-row lg:gap-20 lg:z-0 lg:bg-inherit lg:relative transition-all ease-in-out duration-700;
 }
 
 .nav-bar-desktop {
-	@apply flex-row relative z-0 mt-0 h-[100px] p-0 bg-transparent;
+    @apply flex-row relative z-0 mt-0 h-[100px] p-0 bg-transparent;
 }
 

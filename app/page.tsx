@@ -63,8 +63,9 @@ export default function Home() {
 				</h2>
 				<NosPresations />
 			</section>
-			<section>
 
+			{/* Avis client */}
+			<section>
 			</section>
 		</>
 	);
