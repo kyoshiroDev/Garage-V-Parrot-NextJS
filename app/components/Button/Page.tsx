@@ -1,13 +1,7 @@
 "use client";
 
-interface ButtonProps {
-	children: React.ReactNode;
-}
+import { ChildrenInterface } from "@/lib/interface";
 
-export default function Button({ children }: ButtonProps) {
-	return (
-		<button>
-			{children}
-		</button>
-	);
+export default function Button({ children }: ChildrenInterface) {
+	return <button>{children}</button>;
 }

@@ -3,17 +3,12 @@
 import Image from "next/image";
 import Button from "../Button/Page";
 import Link from "next/link";
+import { MenuInterface } from "@/lib/interface";
 import { useState } from "react";
-
-interface Menu {
-	id: number;
-	name: string;
-	href: string;
-}
 
 export default function Navbar() {
 	// Variables
-	const menu: Menu[] = [
+	const menu: MenuInterface[] = [
 		{ id: 1, name: "Accueil", href: "/" },
 		{ id: 2, name: "Mécanique", href: "/mecanique" },
 		{ id: 3, name: "Carrosserie", href: "/carrosserie" },
