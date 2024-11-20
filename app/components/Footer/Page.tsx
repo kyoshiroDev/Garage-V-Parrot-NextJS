@@ -1,11 +1,17 @@
-import Image from "next/image.js";
+import Image from 'next/image.js'
 
 export default function Footer() {
   return (
-    <footer className={'flex flex-wrap items-start justify-around px-10 py-5 mt-10 w-full bg-gray-200'}>
+    <footer
+      className={
+        'flex flex-wrap items-start justify-around px-10 py-5 mt-10 w-full bg-gray-200'
+      }
+    >
       {/* Horaires */}
       <div className={'flex-col items-start justify-center mt-5'}>
-        <h3 className={'text-center text-2xl font-semibold'}>Horaires d'ouverture</h3>
+        <h3 className={'text-center text-2xl font-semibold'}>
+          Horaires d'ouverture
+        </h3>
         <div className={'flex flex-col gap-1 text-start pl-5 pt-5'}>
           <p>Lundi : 08:45 - 12h00 / 14h00 - 18h00</p>
           <p>Mardi : 08:45 - 12h00 / 14h00 - 18h00</p>
@@ -36,7 +42,7 @@ export default function Footer() {
           <Image
             src={'/Footer/instagram.png'}
             alt={'icone instagram'}
-            width={50} h
+            width={50}
             height={50}
             className={'aspect-square'}
           ></Image>
@@ -52,10 +58,14 @@ export default function Footer() {
       {/*  Mention légal et Cookies */}
       <div className={'flex flex-col items-center justify-center mt-5'}>
         <h3 className={'text-2xl font-semibold'}>En plus</h3>
-        <p className={'pt-5'}>Mentions légales et politiques de confidentialités</p>
+        <p className={'pt-5'}>
+          Mentions légales et politiques de confidentialités
+        </p>
         <p>Cookies</p>
       </div>
-      <div className={'w-full text-center mt-5'}><p className={'text-xs'}>©Forge Digital Web</p></div>
+      <div className={'w-full text-center mt-5'}>
+        <p className={'text-xs'}>©Forge Digital Web</p>
+      </div>
     </footer>
   )
 }

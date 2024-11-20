@@ -1,5 +1,3 @@
 export default function Mecanique() {
-  return (
-    <div>Mecanique</div>
-  )
+  return <div>Mecanique</div>
 }

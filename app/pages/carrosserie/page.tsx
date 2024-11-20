@@ -1,8 +1,3 @@
-export default function Carroserie
-() {
-  return (
-    <div>Carroserie
-      
-    </div>
-  )
+export default function Carroserie() {
+  return <div>Carroserie</div>
 }

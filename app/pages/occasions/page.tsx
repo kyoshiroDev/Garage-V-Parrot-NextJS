@@ -1,3 +1,3 @@
 export default function Occasions() {
-	return <div>Occasions</div>;
+  return <div>Occasions</div>
 }
