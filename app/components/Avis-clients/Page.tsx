@@ -10,22 +10,33 @@ export default function AvisClients() {
       id: 1,
       name: 'Jhon Doe',
       note: 5,
-      content: 'test',
+      content: 'super garage trés compétitif et surtout tous agréable',
     },
-    {
-      id: 2,
-      name: 'Jhon Doe',
-      note: 5,
-      content: 'test',
-    },
+    // {
+    //   id: 2,
+    //   name: 'Jhon Doe',
+    //   note: 5,
+    //   content: 'test',
+    // },
   ])
   return (
-    <div className={'max-w-[600px]'}>
+    <div
+      className={
+        'flex flex-col justify-center items-center max-w-[600px] min-h-[250px] border-2 border-garage-red mt-40 m-auto rounded-xl'
+      }
+    >
       {avisClient.map((avisClient) => (
-        <div key={avisClient.id}>
-          <p>{avisClient.name}</p>
-          <p>{avisClient.note}</p>
-          <p>{avisClient.content}</p>
+        <div
+          key={avisClient.id}
+          className="flex-1 h-full w-full flex flex-col justify-items-start items-center"
+        >
+          <div className="flex w-full justify-between py-5 px-10 text-lg font-semibold">
+            <p>{avisClient.name}</p>
+            <p>{avisClient.note} / 5</p>
+          </div>
+          <div className="flex w-full justify-center items-center text-xl mt-10">
+            <p>{avisClient.content}</p>
+          </div>
         </div>
       ))}
     </div>

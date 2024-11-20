@@ -10,22 +10,22 @@ export default function Navbar() {
   // Variables
   const menu: MenuInterface[] = [
     { id: 1, name: 'Accueil', href: '/' },
-    { id: 2, name: 'Mécanique', href: '/mecanique' },
-    { id: 3, name: 'Carrosserie', href: '/carrosserie' },
-    { id: 4, name: 'Occasions', href: '/occasions' },
+    { id: 2, name: 'Mécanique', href: '/pages/mecanique' },
+    { id: 3, name: 'Carrosserie', href: '/pages/carrosserie' },
+    { id: 4, name: 'Occasions', href: '/pages/occasions' },
   ]
 
   // States
   const [isOPen, setIsOpen] = useState<boolean>(false)
 
-  console.log(isOPen)
   return (
     <header className="flex items-center justify-between max-h-[100px] w-full border-b border-black">
       <Image
         src="/Header/Logo.png"
         alt="logo de la société"
         width={250}
-        height={0}
+        height={250}
+        priority={true}
         className="aspect-square object-fill"
       />
       <nav
@@ -52,7 +52,7 @@ export default function Navbar() {
           className="aspect-square"
         />
         <Image
-          src={'/Header/menu-burger.svg'}
+          src={!isOPen ? '/Header/menu-burger.svg' : '/Header/x-lg.svg'}
           alt="menu burger"
           width={50}
           height={50}
