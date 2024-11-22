@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import { barlow } from './fonts/fonts.js'
 import './globals.css'
-import Navbar from './components/Navbar/Page.tsx'
-import Footer from './components/Footer/Page.tsx'
 
 // Metadata
 export const metadata: Metadata = {
@@ -22,16 +20,7 @@ export default function RootLayout({
       <body
         className={`flex flex-col justify-center items-center min-h-screen ${barlow.className}`}
       >
-        {/* Navbar */}
-        <Navbar />
-
-        {/* Content */}
-        <main className="flex-1 flex-col w-full items-center justify-center m-auto py-7 px-3">
-          {children}
-        </main>
-
-        {/* Footer */}
-        <Footer />
+        {children}
       </body>
     </html>
   )

@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import NosPresations from './components/Nos-prestations/Page.tsx'
 import AvisClients from '@/app/components/Avis-clients/Page.tsx'
 import QuiSommeNous from './components/Qui-somme-nous/Page.tsx'
+import MainLayout from './pages/layout.tsx'
 
 // Metadata
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
+    <MainLayout>
       {/* Qui sommes-nous */}
       <QuiSommeNous />
 
@@ -30,6 +31,6 @@ export default function Home() {
       <section>
         <AvisClients />
       </section>
-    </>
+    </MainLayout>
   )
 }
