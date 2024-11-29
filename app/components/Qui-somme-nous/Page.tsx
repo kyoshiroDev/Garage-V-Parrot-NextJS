@@ -19,6 +19,7 @@ export default function QuiSommeNous() {
             width={450}
             height={450}
             className="rounded-full aspect-auto sm:min-w-[250px]"
+            priority={true}
           />
         </motion.div>
         <motion.div
