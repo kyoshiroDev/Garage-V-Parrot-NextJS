@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { PrestationsInterface } from '@/lib/interface'
 
 export default function NosPrestations() {
-  const [prestations, setPrestations] = useState<PrestationsInterface[]>([
+  const [prestations] = useState<PrestationsInterface[]>([
     {
       id: 1,
       prestation: 'Entretien mécanique toute marque',
@@ -28,7 +28,7 @@ export default function NosPrestations() {
       {prestations.map((prestation) => (
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5, ease: 'linear', delay: 0.5 }}
           className="max-h-content relative"
           key={prestation.id}
@@ -42,9 +42,10 @@ export default function NosPrestations() {
           <Image
             src={prestation.image}
             alt="alt"
-            width={500}
-            height={250}
-            className="aspect-video bg-slate-200 border-2 rounded-lg border-black"
+            width={540}
+            height={360}
+            className="aspect-video bg-slate-200 border-2 rounded-lg border-black object-cover w-auto max-h-[300px]"
+            priority={true}
           />
         </motion.div>
       ))}

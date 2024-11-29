@@ -6,7 +6,7 @@ h2 {
   @apply text-garage-red text-xl font-semibold text-center border-2 border-garage-red max-w-fit py-5 px-20 lg:px-[300px] mx-auto rounded-2xl;
 }
 
-button {
+.button {
   @apply bg-garage-red text-white min-w-[150px] min-h-[50px] rounded-xl font-semibold hover:bg-garage-red-hover;
 }
 

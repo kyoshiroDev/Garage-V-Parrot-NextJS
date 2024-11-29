@@ -7,7 +7,7 @@ export default function QuiSommeNous() {
   return (
     <section className="max-w-full md:my-[150px]">
       {/* Image */}
-      <div className="flex flex-col lg:flex-row justify-around items-center gap-20 lg:gap-0 m-auto mt-16 max-w-[1600px]">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-0 m-auto mt-16 w-full md:max-w-[1600px]">
         <motion.div
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
@@ -16,9 +16,10 @@ export default function QuiSommeNous() {
           <Image
             src={'/Home/qui-somme-nous.png'}
             alt={'mécanicien avec les bras croiser'}
-            width={450}
-            height={450}
-            className="rounded-full aspect-auto sm:min-w-[250px]"
+            width={1000}
+            height={1000}
+            className="rounded-full aspect-auto w-[200px] h-[200px] lg:w-[400px] lg:h-[400px]"
+            priority={true}
           />
         </motion.div>
         <motion.div
@@ -28,11 +29,13 @@ export default function QuiSommeNous() {
         >
           {/* Title + content */}
           <h1
-            className={`text-center mb-5 font-semibold text-4xl text-garage-red ${radjhani.className}`}
+            className={`text-center mb-5 font-semibold text-3xl text-garage-red ${radjhani.className}`}
           >
             Qui-sommes-nous !
           </h1>
-          <p className={`max-w-[600px] leading-relaxed`}>
+          <p
+            className={`max-w-[350px] md:min-w-[600px] md:ml-20 leading-relaxed p-5`}
+          >
             Fort de ses 15 années d’expérience dans le domaine de la réparation
             automobile, Vincent Parrot a décidé en 2021 de concrétiser son rêve
             entrepreneurial en ouvrant un garage à Toulouse. Ce projet est né de

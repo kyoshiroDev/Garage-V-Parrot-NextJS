@@ -64,7 +64,9 @@ export default function Footer() {
         <p>Cookies</p>
       </div>
       <div className={'w-full text-center mt-5'}>
-        <p className={'text-xs'}>©Forge Digital Web</p>
+        <p className={'text-xs'}>
+          Copyright 2024 © Forge Digital Web - Tous droit réservés
+        </p>
       </div>
     </footer>
   )
