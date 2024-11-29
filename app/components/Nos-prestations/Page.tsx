@@ -44,7 +44,7 @@ export default function NosPrestations() {
             alt="alt"
             width={500}
             height={250}
-            className="aspect-video bg-slate-200 border-2 rounded-lg border-black"
+            className="aspect-auto bg-slate-200 border-2 rounded-lg border-black"
           />
         </motion.div>
       ))}
