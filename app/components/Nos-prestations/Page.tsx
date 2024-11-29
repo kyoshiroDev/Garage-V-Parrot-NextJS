@@ -42,8 +42,8 @@ export default function NosPrestations() {
           <Image
             src={prestation.image}
             alt="alt"
-            width={250}
-            height={125}
+            width={500}
+            height={250}
             className="aspect-auto bg-slate-200 border-2 rounded-lg border-black w-[332px] h-auto md:w-[440px] md:h-[250px]"
             priority={true}
           />
