@@ -16,9 +16,9 @@ export default function QuiSommeNous() {
           <Image
             src={'/Home/qui-somme-nous.png'}
             alt={'mécanicien avec les bras croiser'}
-            width={250}
-            height={250}
-            className="rounded-full aspect-auto w-auto h-auto md:w-[500px] md:h-[250px]"
+            width={150}
+            height={150}
+            className="rounded-full aspect-auto w-[200px] h-[200px] lg:w-[500px] lg:h-[500px]"
             priority={true}
           />
         </motion.div>
