@@ -18,7 +18,7 @@ export default function QuiSommeNous() {
             alt={'mécanicien avec les bras croiser'}
             width={250}
             height={250}
-            className="rounded-full aspect-auto md:min-w-[450px]"
+            className="rounded-full aspect-auto w-auto h-auto"
             priority={true}
           />
         </motion.div>
@@ -33,7 +33,7 @@ export default function QuiSommeNous() {
           >
             Qui-sommes-nous !
           </h1>
-          <p className={`max-w-[250px] md:max-w-[600px] leading-relaxed`}>
+          <p className={`max-w-[300px] md:w-[600px] leading-relaxed`}>
             Fort de ses 15 années d’expérience dans le domaine de la réparation
             automobile, Vincent Parrot a décidé en 2021 de concrétiser son rêve
             entrepreneurial en ouvrant un garage à Toulouse. Ce projet est né de
