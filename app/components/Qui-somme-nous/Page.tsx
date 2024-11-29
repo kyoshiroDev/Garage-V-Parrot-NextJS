@@ -18,7 +18,7 @@ export default function QuiSommeNous() {
             alt={'mécanicien avec les bras croiser'}
             width={250}
             height={250}
-            className="rounded-full aspect-auto w-auto h-auto"
+            className="rounded-full aspect-auto w-auto h-auto md:w-[500px] md:h-[250px]"
             priority={true}
           />
         </motion.div>
