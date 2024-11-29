@@ -26,7 +26,7 @@ export default function Navbar() {
         width={250}
         height={250}
         priority={true}
-        className="aspect-square object-fill"
+        className="aspect-auto object-fill"
       />
       <nav
         className={`nav-bar-mobile ${
