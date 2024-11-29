@@ -42,9 +42,9 @@ export default function NosPrestations() {
           <Image
             src={prestation.image}
             alt="alt"
-            width={640}
+            width={540}
             height={360}
-            className="aspect-video bg-slate-200 border-2 rounded-lg border-black w-[350px]  md:w-[640px] md:h-[250px] object-fill"
+            className="aspect-video bg-slate-200 border-2 rounded-lg border-black object-cover"
             priority={true}
           />
         </motion.div>

@@ -34,7 +34,7 @@ export default function QuiSommeNous() {
             Qui-sommes-nous !
           </h1>
           <p
-            className={`max-w-[300px] md:min-w-[600px] md:ml-20 leading-relaxed p-5`}
+            className={`max-w-[400px] md:min-w-[600px] md:ml-20 leading-relaxed p-5`}
           >
             Fort de ses 15 années d’expérience dans le domaine de la réparation
             automobile, Vincent Parrot a décidé en 2021 de concrétiser son rêve
