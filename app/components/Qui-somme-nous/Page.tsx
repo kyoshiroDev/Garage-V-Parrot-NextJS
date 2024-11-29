@@ -7,7 +7,7 @@ export default function QuiSommeNous() {
   return (
     <section className="max-w-full md:my-[150px]">
       {/* Image */}
-      <div className="flex flex-col lg:flex-row justify-around items-center gap-20 lg:gap-0 m-auto mt-16 max-w-[450px] md:max-w-[1600px]">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-0 m-auto mt-16 max-w-[450px] md:max-w-[1600px]">
         <motion.div
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
@@ -33,7 +33,9 @@ export default function QuiSommeNous() {
           >
             Qui-sommes-nous !
           </h1>
-          <p className={`max-w-[300px] md:w-[600px] leading-relaxed`}>
+          <p
+            className={`max-w-[300px] md:min-w-[600px] md:ml-20 leading-relaxed`}
+          >
             Fort de ses 15 années d’expérience dans le domaine de la réparation
             automobile, Vincent Parrot a décidé en 2021 de concrétiser son rêve
             entrepreneurial en ouvrant un garage à Toulouse. Ce projet est né de
