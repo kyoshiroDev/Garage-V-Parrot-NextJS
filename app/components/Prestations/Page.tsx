@@ -17,6 +17,7 @@ export default function Prestations() {
         width={700}
         height={100}
         className="rounded-2xl aspect-auto w-auto h-auto"
+        priority
       />
       <p>
         Nos techniciens respectent votre plan d’entretien à la lettre et

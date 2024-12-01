@@ -45,7 +45,7 @@ export default function NosPrestations() {
             width={540}
             height={360}
             className="aspect-video bg-slate-200 border-2 rounded-lg border-black object-cover w-auto max-h-[300px]"
-            priority={true}
+            priority
           />
         </motion.div>
       ))}

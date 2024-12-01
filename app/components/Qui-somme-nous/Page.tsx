@@ -7,7 +7,7 @@ export default function QuiSommeNous() {
   return (
     <section className="max-w-full md:my-[150px]">
       {/* Image */}
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-0 m-auto mt-16 w-full md:max-w-[1600px]">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-20 lg:gap-0 m-auto mt-16">
         <motion.div
           initial={{ x: -1000 }}
           animate={{ x: 0 }}
@@ -16,16 +16,17 @@ export default function QuiSommeNous() {
           <Image
             src={'/Home/qui-somme-nous.png'}
             alt={'mécanicien avec les bras croiser'}
-            width={1000}
-            height={1000}
+            width={400}
+            height={400}
             className="rounded-full aspect-auto w-[200px] h-[200px] lg:w-[400px] lg:h-[400px]"
-            priority={true}
+            priority
           />
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.4, ease: 'easeInOut' }}
+          className="max-w-fit"
         >
           {/* Title + content */}
           <h1
@@ -33,9 +34,7 @@ export default function QuiSommeNous() {
           >
             Qui-sommes-nous !
           </h1>
-          <p
-            className={`max-w-[350px] md:min-w-[600px] md:ml-20 leading-relaxed p-5`}
-          >
+          <p className={`w-[350px] md:w-[600px] lg:pl-20 p-5 text-xl`}>
             Fort de ses 15 années d’expérience dans le domaine de la réparation
             automobile, Vincent Parrot a décidé en 2021 de concrétiser son rêve
             entrepreneurial en ouvrant un garage à Toulouse. Ce projet est né de
@@ -48,11 +47,7 @@ export default function QuiSommeNous() {
             proposés. Son équipe, composée de professionnels qualifiés, s'engage
             à répondre aux besoins spécifiques de chaque véhicule, tout en
             garantissant une transparence totale dans les réparations et
-            l'entretien. Le garage est également un acteur local engagé,
-            soucieux de contribuer à la mobilité durable en proposant des
-            véhicules d'occasion en excellent état, permettant à ses clients de
-            trouver la voiture qui correspond à leurs attentes, sans compromis
-            sur la qualité.
+            l'entretien.
           </p>
         </motion.div>
       </div>
