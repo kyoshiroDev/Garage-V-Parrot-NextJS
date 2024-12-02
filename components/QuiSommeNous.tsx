@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { radjhani } from '../../fonts/fonts.js'
+import { radjhani } from '../app/fonts/fonts.js'
 
 export default function QuiSommeNous() {
   return (

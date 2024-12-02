@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Button from '../Button/Page'
+import Button from './Button'
 import Link from 'next/link'
 import { MenuInterface } from '@/lib/interface'
 import { useState } from 'react'

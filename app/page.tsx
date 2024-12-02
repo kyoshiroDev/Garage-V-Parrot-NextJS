@@ -1,8 +1,8 @@
 import { radjhani } from './fonts/fonts.js'
 import type { Metadata } from 'next'
-import NosPrestations from './components/Nos-prestations/Page.tsx'
-import AvisClients from '@/app/components/Avis-clients/Page.tsx'
-import QuiSommeNous from './components/Qui-somme-nous/Page.tsx'
+import NosPrestations from '../components/NosPrestations.tsx'
+import AvisClients from '@/components/AvisClients.tsx'
+import QuiSommeNous from '../components/QuiSommeNous.tsx'
 
 import MainLayout from './pages/layout.tsx'
 import React from 'react'

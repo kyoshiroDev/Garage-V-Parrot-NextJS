@@ -1,4 +1,4 @@
-import Prestations from '@/app/components/Prestations/Page'
+import Prestations from '@/components/Prestations'
 import { PrestationsInterface } from '@/lib/interface'
 
 export default function Mecanique() {
