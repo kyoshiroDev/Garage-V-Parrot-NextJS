@@ -3,10 +3,18 @@ export interface ChildrenInterface {
   children: React.ReactNode
 }
 
-export interface PrestationsInterface {
+export interface NosPrestationsInterface {
   id: number
   prestation: string
   image: string
+}
+
+export interface PrestationsInterface {
+  title: string
+  textSup: string
+  imageSrc: string
+  imageAlt: string
+  textInf: string
 }
 
 export interface MenuInterface {

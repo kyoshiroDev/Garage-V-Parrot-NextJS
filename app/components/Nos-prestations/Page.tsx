@@ -2,10 +2,10 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { PrestationsInterface } from '@/lib/interface'
+import { NosPrestationsInterface } from '@/lib/interface'
 
 export default function NosPrestations() {
-  const [prestations] = useState<PrestationsInterface[]>([
+  const [prestations] = useState<NosPrestationsInterface[]>([
     {
       id: 1,
       prestation: 'Entretien mécanique toute marque',
