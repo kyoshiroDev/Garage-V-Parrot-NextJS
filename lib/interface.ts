@@ -1,4 +1,3 @@
-
 export interface ChildrenInterface {
   children: React.ReactNode
 }
@@ -28,4 +27,16 @@ export interface AvisClientInterface {
   name: string
   note: number
   content: string
+}
+
+export interface VehiculeInterface {
+  image: string
+  marque: string
+  model: string
+  kilometrages: number
+  portes: number
+  puissance: number
+  annee: number
+  energie: string
+  prix: number
 }
